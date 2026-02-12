@@ -1,0 +1,52 @@
+.main-container {
+	max-width: 400px;
+	text-align: center;
+	padding-top: 40px;
+	margin: auto;
+	font-family: sans-serif;
+}
+
+.ttt-container {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+	margin: 0 -5px;
+}
+
+.ttt-box {
+	width: 100px;
+	height: 100px;
+	border: 1px solid;
+	margin: 5px;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	cursor: pointer;
+}
+
+.ttt-box:hover {
+	background-color: yellow;
+}
+
+.ttt-choice {
+	font-size: 30px;
+}
+
+.btn-link {
+	color: blue;
+}
+
+.start-btn-container {
+	margin-top: 30px;
+}
+
+.start-btn {
+	background-color: cyan;
+	font-size: 20px;
+	cursor: pointer;
+}
+
+.start-btn:hover {
+	background-color: lightblue;
+}
+
